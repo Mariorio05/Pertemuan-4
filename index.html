@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violet Dashboard Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-layout">
+        <aside class="sidebar">
+            <h2>Sidebar Menu</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="#">Link 4</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="content-wrapper">
+            <header class="topbar">
+                <h1>Website Header</h1>
+            </header>
+
+            <main class="main-area">
+                <div class="form-container">
+                    <h2>Content Area</h2>
+                    <form action="#" method="post" enctype="multipart/form-data">
+                        <div class="input-block">
+                            <label for="text">Text Input:</label>
+                            <input type="text" id="text" name="text">
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="number">Number:</label>
+                            <input type="number" id="number" name="number">
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="date">Date:</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="color">Color:</label>
+                            <input type="color" id="color" name="color" value="#8b5cf6">
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="range">Range:</label>
+                            <input type="range" id="range" name="range">
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="textarea">Textarea:</label>
+                            <textarea id="textarea" name="textarea" rows="4"></textarea>
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="select">Select:</label>
+                            <select id="select" name="select">
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                            </select>
+                        </div>
+
+                        <div class="input-block">
+                            <label>Radio:</label>
+                            <div class="option-group">
+                                <label class="option-item"><input type="radio" name="radio_opt" value="1"> Option A</label>
+                                <label class="option-item"><input type="radio" name="radio_opt" value="2"> Option B</label>
+                            </div>
+                        </div>
+
+                        <div class="input-block">
+                            <label>Checkbox:</label>
+                            <div class="option-group">
+                                <label class="option-item"><input type="checkbox" name="check_opt" value="1"> Item X</label>
+                                <label class="option-item"><input type="checkbox" name="check_opt" value="2"> Item Y</label>
+                            </div>
+                        </div>
+
+                        <div class="input-block">
+                            <label for="file">File Upload:</label>
+                            <input type="file" id="file" name="file">
+                        </div>
+                        
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
